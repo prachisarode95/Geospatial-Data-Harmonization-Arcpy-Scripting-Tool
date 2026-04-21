@@ -1,13 +1,16 @@
-# GIS Data Standardization Pipeline (ArcPy)
+# GIS Data Standardization Tool (ArcPy)
 
-## 📌 Overview
-This project automates geospatial data preprocessing using ArcPy in ArcGIS Pro.
+## Project Overview
 
-It standardizes multi-source GIS datasets including raster and vector formats into a unified coordinate system and spatial extent.
+This project presents an automated GIS data standardization pipeline built using ArcPy in ArcGIS Pro. 
+
+The workflow processes multi-source geospatial data, including CSV, raster (ECW/DEM), and vector layers, and transforms them into analysis-ready datasets through coordinate system standardization, raster mosaicking, and spatial clipping.
+
+The pipeline is implemented both as a Python script and as an ArcGIS Script Tool, enabling reproducible and user-friendly geospatial data processing.
 
 ---
 
-## 🚀 Features
+## Project Workflow
 
 - CSV → Point feature conversion
 - ECW raster mosaicking
@@ -19,39 +22,3 @@ It standardizes multi-source GIS datasets including raster and vector formats in
 - ArcGIS Script Tool integration (UI-based execution)
 
 ---
-
-## 🛠️ Tech Stack
-
-- ArcGIS Pro
-- ArcPy (Python)
-- File Geodatabase
-
----
-
-## 📂 Project Structure
-src/ → Python automation script
-toolbox/ → ArcGIS Script Tool
-sample_data/ → Example inputs
-outputs/ → Screenshots + results
-
----
-
-## ▶️ How to Run
-
-### Option 1 — ArcGIS Tool (Recommended)
-
-1. Open ArcGIS Pro
-2. Add toolbox: `data_standardization_pipeline.atbx`
-3. Run tool:
-   - Base Folder → Project root folder
-   - Output GDB → Target geodatabase
-
----
-
-### Option 2 — Python Script
-
-Run:
-
-```bash
-python pipeline_tool.py
-```
