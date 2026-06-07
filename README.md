@@ -11,14 +11,7 @@
 
 ---
 
-## 2. The standardized geospatial data is foundational for the following industry cases:
-- Urban Analytics & Planning
-- Logistics & Mobility Systems  
-- Disaster Management
-- Enterprise GIS Systems 
----
-
-## 3. System Architecture
+## 2. System Architecture
             ┌──────────────────────────┐
             │ Multi-Source Input Data  │
             │ CSV | Raster | Vector    │
@@ -54,7 +47,7 @@
             └──────────────────────────┘          
 ---
 
-## 4. Tech Stack
+## 3. Tech Stack
 
 - **Programming**: Python (ArcPy)
 - **GIS Platform**: ArcGIS Pro
@@ -70,7 +63,7 @@
 
 ---
 
-## 5. How It Works (End-To-End Pipeline)
+## 4. How It Works (Workflow)
 
 ### Step 1: Data Ingestion
 - Input datasets:
@@ -123,7 +116,7 @@
 
 ---
 
-## 6. Workflow Overview
+## 5. Workflow Overview
 ![Pipeline Workflow](https://github.com/user-attachments/assets/911699ea-f943-4380-bc52-724f36cbc51c)
 
 ### Output Visualization
